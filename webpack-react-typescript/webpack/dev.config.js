@@ -1,6 +1,6 @@
-const prod = require('./prod.config')
+const common = require('./common.config')
+const { merge } = require('webpack-merge')
 
-module.exports = {
-  ...prod,
+module.exports = merge(common, {
   mode: 'development',
-}
+})
