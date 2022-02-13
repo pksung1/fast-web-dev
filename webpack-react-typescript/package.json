@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack --dev"
+    "webpack": "webpack --env mode=dev",
+    "webpack:staging": "webpack --env mode=staging",
+    "webpack:prod": "webpack --env mode=prod"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",

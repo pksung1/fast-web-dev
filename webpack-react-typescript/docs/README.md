@@ -19,4 +19,18 @@
 ---
 # webpack 설정하기
 
+명령어에 따라 모드를 설정할수 있도록 할 생각
+
+https://webpack.kr/guides/environment-variables/
+
+웹팩에 여러 환경변수를 보낼수 있다.
+```
+webpack --env mode=dev
+// { WEBPACK_BUNDLE: true, WEBPACK_BUILD: true, mode: 'dev' }
+```
+
+mode에 따라 빌드 환경이 달라지도록 코드를 구성한다.
+
+
+
 
